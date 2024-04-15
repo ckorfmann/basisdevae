@@ -1,0 +1,3 @@
+Run main.py with no arguments to run experiment. It is essentially the same script used in the original BasisDeVAE paper, and runs the experiment a single time using only the noisy dataset.
+
+Run auto.py to automate 10 runs, with each run training 4 times on the following datasets: ground truth, noisy, low z, high z. It will produce ARI scores for the clusterings of each.
